@@ -26,40 +26,33 @@ A simple task management application with Next.js for the frontend and Express.j
 **Task Details:**
 
 - Title, description, due date
-  _Data Persistence_:
-- MongoDB for storing tasks and user information
-  _Error Handling & Loading States:_
-- Proper error handling and user-friendly loading states
-  _Frontend:_
-- Next.js (for SSR/SSG support)
-  _Backend:_
-- Express.js & Node.js (for task and authentication APIs)
+- Data Persistence:
+  MongoDB for storing tasks and user information
+- Error Handling & Loading States:
+  Proper error handling and user-friendly loading states
+- Frontend:
+  Next.js (for SSR/SSG support)
+- Backend:
+  Express.js & Node.js (for task and authentication APIs)
 
 ## Tech-Stack-Used
 
 **Frontend**
 
-```bash
 Next.js (latest version)
 Tailwind CSS (for styling)
 React (for building components)
-```
 
 **Backend**
 
-```bash
 Express.js (for API routes)
 Node.js (for server-side logic)
 MongoDB (for data persistence)
 JWT (for user authentication)
 
-```
-
 **Deployment**
 
-```bash
 Deployment: Vercel
-```
 
 ## Installation
 
