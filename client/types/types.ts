@@ -1,5 +1,5 @@
 export type TaskStatus = "To Do" | "In Progress" | "Completed";
-export type TaskPriority = "Low" | "Medium" | "High";
+export type TaskPriority = "Urgent" | "Weekend" | "Monthend";
 export type BoardView = "list" | "tasks";
 
 export type User = {

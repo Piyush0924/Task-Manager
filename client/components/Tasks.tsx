@@ -14,6 +14,8 @@ import useLogout from "@/hooks/useLogout";
 // Define the TaskStatus type (you can place this in your types file)
 export type TaskStatus = "To Do" | "In Progress" | "Completed";
 
+
+
 const Tasks: React.FC = () => {
   const { toast } = useToast();
   const { tasks, setTasks } = useTaskStore();
